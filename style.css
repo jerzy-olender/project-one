@@ -268,6 +268,7 @@ header nav a:last-child {
     font-size: 14px;
     color: black;
     font-weight: 400;
+    line-height: 1.2;
 }
 
 .services .services_items {
@@ -282,12 +283,12 @@ header nav a:last-child {
 }
 
 .services_items_inner {
-    width: 30%;
+    width: 31%;
 }
 
 .relax {
     display: flex;
-    height: 616px;
+   
 }
 
 .relax .gear {
@@ -334,6 +335,11 @@ header nav a:last-child {
     font-family: "Roboto Slab";
     font-size: 16px;
     color: #cccccc;
+    margin-bottom: 10px;
+   
+}
+.relax_list li:last-child{
+    margin-bottom: 50px;
 }
 
 .relax_list li:before {
@@ -348,17 +354,34 @@ header nav a:last-child {
     border: 2px solid #ccc;
     line-height: 32px;
     text-align: center;
+     margin-right: 20px;
+}
+
+.relax .relax_jpg .overlay button {
+    width: 200px;
+    margin-bottom: 100px;
+    background: #7cc576;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 22px 5px;
+    border: 0;
+}
+
+.relax .relax_jpg .overlay button:hover {
+    color: #222;
+    background: #fff;
 }
 
 .project {
-    /*position: relative;*/
     padding: 100px 0;
 }
 .project .tablet_holder{
     position: relative;
 }
 
-.project img {
+.project .tablet_holder .project-tablet {
     position: absolute;
     right: 0;
     top: 0;
@@ -399,6 +422,7 @@ header nav a:last-child {
     font-size: 16px;
     margin-bottom: 27px;
     color: #777;
+    line-height: 1.2;
 }
 
 .project_container .project_list li span {
