@@ -799,15 +799,26 @@ header nav a:last-child {
 
 }
 
+.subfooter .subfooter-inner .subfooter-item .footer-text .png-holder{
+    width: 23px;
+    margin-right: 15px;
+}
+
+.subfooter .subfooter-inner .subfooter-item .footer-text .center{
+    width: 25px;
+}
+
+.subfooter .subfooter-inner .subfooter-item .up .footer-text-p{
+    position: relative;
+    top: -4px;
+}
+
 .subfooter .subfooter-inner .subfooter-item .up {
     display: flex;
     align-items: flex-start;
 
 }
 
-.subfooter .subfooter-inner .subfooter-item .footer-text img{
-    margin-right: 15px;
-}
 
 .subfooter .subfooter-inner .subfooter-item .footer-text span.long {
     width: 47px;
