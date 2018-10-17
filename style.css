@@ -292,8 +292,11 @@ header nav a:last-child {
 }
 
 .relax .gear {
-    background: url("kolo.jpg");
-    width: 30%
+    background: url("gear.jpg");
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .relax .relax_jpg {
@@ -408,9 +411,6 @@ header nav a:last-child {
     margin-bottom: 91px;
 }
 
-.project .project_container {
-    width: 50%;
-}
 
 .project .project_container .project_title {
     font-size: 18px;
@@ -436,7 +436,6 @@ header nav a:last-child {
     border: 4px solid #000;
     justify-content: center;
     align-items: center;
-    font-size: 39px;
     margin-right: 17px;
 }
 
@@ -926,7 +925,7 @@ header nav a:last-child {
 }
 
 @media(min-width: 641px) and (max-width: 768px) {
-    .project img {
+    .project .tablet_holder .project-tablet{
         width: 285px;
     }
 
