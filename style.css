@@ -775,6 +775,7 @@ header nav a:last-child {
     color: #ececec;
     display: inline-block;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .subfooter .subfooter-inner .subfooter-item .footer-text .subfooter-item-qoutes-time{
