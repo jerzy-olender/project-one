@@ -147,30 +147,30 @@ table {
     margin: 0 auto;
 }
 
-header {
+.main-header {
     display: flex;
     justify-content: space-between;
     height: 115px;
     align-items: center;
 }
 
-header img {
+.main-header .header-img {
     width: 144px;
     height: 29px;
 }
 
-header nav {
+.main-header .main-nav {
     width: 80%;
     display: flex;
     justify-content: flex-end;
 }
 
-header nav li {
+.main-header .main-nav .nav-li {
     display: inline-block;
     margin-top: 11px;
 }
 
-header nav a {
+.main-header .main-nav a {
     font-size: 14px;
     color: #777777;
     font-weight: 400;
@@ -180,7 +180,7 @@ header nav a {
     text-transform: uppercase;
 }
 
-header nav a:last-child {
+.main-header .main-nav a:last-child {
     margin-right: 0;
 }
 
@@ -190,7 +190,7 @@ header nav a:last-child {
     background-size: cover;
 }
 
-.photo_shadow {
+.photo-background .photo-shadow {
     background: rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
@@ -199,21 +199,21 @@ header nav a:last-child {
     height: 100%;
 }
 
-.photo-background .title {
+.photo-background .photo-shadow .title {
     font-size: 60px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.photo-background .subtitle {
+.photo-background .photo-shadow .subtitle {
     font-family: "Roboto Slab", sans-serif;
     color: #ccc;
     font-size: 20px;
     margin: 40px 0 60px 0;
 }
 
-.photo-background .photo-button {
+.photo-background .photo-shadow .photo-button {
     width: 200px;
     margin: 0 auto;
     background: #7cc576;
@@ -225,7 +225,7 @@ header nav a:last-child {
     border: 0;
 }
 
-.photo-background .photo-button:hover {
+.photo-background .photo-shadow .photo-button:hover {
     color: #222;
     background: #fff;
 }
@@ -256,14 +256,14 @@ header nav a:last-child {
     margin-bottom: 90px;
 }
 
-.services .services_items .title {
+.services .services-items .title {
     font-size: 18px;
     color: black;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.services .services_items .subtitle {
+.services .services-items .subtitle {
     font-family: "Roboto Slab", sans-serif;
     font-size: 14px;
     color: black;
@@ -271,18 +271,18 @@ header nav a:last-child {
     line-height: 1.2;
 }
 
-.services .services_items {
+.services .services-items {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.services .services-img {
+.services .services-items .services-items-inner .services-img {
     margin-bottom: 38px;
     height: 50px;
 }
 
-.services_items_inner {
+.services .services-items .services-items-inner {
     width: 31%;
 }
 
@@ -299,21 +299,21 @@ header nav a:last-child {
     background-position: right;
 }
 
-.relax .relax_jpg {
+.relax .relax-jpg {
     background: url("relax.jpg");
     width: 70%;
     background-size: cover;
     height: 100%;
 }
 
-.relax .overlay {
+.relax .relax-jpg .overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 100px 0 100px 102px;
 }
 
-.relax .relax_head {
+.relax .relax-jpg .overlay .relax-head {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
@@ -321,11 +321,11 @@ header nav a:last-child {
     margin-bottom: 45px;
 }
 
-.relax .relax_p {
+.relax .relax-jpg .overlay .relax-head .relax-p {
     color: #7cc576;
 }
 
-.relax .relax_subhead {
+.relax .relax-jpg .overlay .relax-subhead {
     font-family: "Roboto Slab";
     color: #cccccc;
     width: 55%;
@@ -334,7 +334,7 @@ header nav a:last-child {
     margin-bottom: 20px;
 }
 
-.relax_list .relax-li {
+.relax .relax-jpg .overlay .relax-list .relax-li {
     font-family: "Roboto Slab";
     font-size: 16px;
     color: #cccccc;
@@ -342,11 +342,11 @@ header nav a:last-child {
 
 }
 
-.relax_list .relax-li:last-child {
+.relax .relax-jpg .overlay .relax-list .relax-li:last-child {
     margin-bottom: 50px;
 }
 
-.relax_list .relax-li:before {
+.relax .relax-jpg .overlay .relax-list .relax-li:before {
     position: relative;
     font-family: 'FontAwesome';
     content: "\f00c";
@@ -361,7 +361,7 @@ header nav a:last-child {
     margin-right: 20px;
 }
 
-.relax .relax_jpg .overlay .relax-button {
+.relax .relax-jpg .overlay .relax-button {
     width: 200px;
     margin-bottom: 100px;
     background: #7cc576;
@@ -373,7 +373,7 @@ header nav a:last-child {
     border: 0;
 }
 
-.relax .relax_jpg .overlay .relax-button:hover {
+.relax .relax-jpg .overlay .relax-button:hover {
     color: #222;
     background: #fff;
 }
@@ -382,29 +382,29 @@ header nav a:last-child {
     padding: 100px 0;
 }
 
-.project .tablet_holder {
+.project .tablet-holder {
     position: relative;
 }
 
-.project .tablet_holder .project-tablet {
+.project .tablet-holder .project-tablet {
     position: absolute;
     right: 0;
     top: 0;
     width: 444px;
 }
 
-.project .project_head {
+.project .project-head {
     text-align: center;
 }
 
-.project .project_head .project-heading {
+.project .project-head .project-heading {
     font-weight: 700;
     font-size: 40px;
     color: #222;
     margin-bottom: 20px;
 }
 
-.project .project_subhead {
+.project .project-head .project-subhead {
     font-family: "Roboto Slab";
     font-size: 20px;
     color: #777;
@@ -412,14 +412,14 @@ header nav a:last-child {
 }
 
 
-.project .project_container .project_title {
+.project .tablet-holder .project-container .project-title {
     font-size: 18px;
     font-weight: 700;
     color: #222;
     margin-bottom: 27px;
 }
 
-.project .project_container .project_paragraph {
+.project .tablet-holder .project-container .project-paragraph {
     font-family: "Roboto Slab";
     font-size: 16px;
     margin-bottom: 27px;
@@ -427,7 +427,7 @@ header nav a:last-child {
     line-height: 1.2;
 }
 
-.project_container .project_list .project-li .project-circle {
+.project .tablet-holder .project-container .project-list .project-li .project-circle {
 
     display: flex;
     height: 65px;
@@ -440,32 +440,32 @@ header nav a:last-child {
 }
 
 
-.project_list .project-li {
+.project .tablet-holder .project-container .project-list .project-li {
     display: flex;
     margin-bottom: 15px;
 }
 
-.project_list .project-li .project_list_paragraph {
+.project .tablet-holder .project-container .project-list .project-li .project-list-paragraph {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
 }
 
-.project_list li .project_list_paragraph .list-heading {
+.project .tablet-holder .project-container .project-list li .project-list-paragraph .list-heading {
     font-size: 18px;
     font-weight: 700;
     color: #222;
     margin-bottom: 7px;
 }
 
-.project_list li .project_list_paragraph .list-paragraph {
+.project .tablet-holder .project-container .project-list li .project-list-paragraph .list-paragraph {
     font-family: "Roboto Slab";
     font-size: 16px;
     color: #777;
 }
 
-.project .tablet_holder .project_container .project-bootom-text {
+.project .tablet-holder .project-container .project-bootom-text {
     font-family: "Roboto Slab";
     font-size: 16px;
     color: #777;
@@ -474,7 +474,7 @@ header nav a:last-child {
 
 }
 
-.project .tablet_holder .project_container .project-bottom-link {
+.project .tablet-holder .project-container .project-bottom-link {
     font-size: 16px;
     font-weight: 700;
     color: #7cc576;
@@ -482,7 +482,7 @@ header nav a:last-child {
     text-decoration: none;
 }
 
-.project .tablet_holder .project_container .project-bottom-link span {
+.project .tablet-holder .project-container .project-bottom-link span {
     margin-left: 7px;
     
 }
@@ -493,25 +493,25 @@ header nav a:last-child {
     padding: 100px 0;
 }
 
-.culture .culture_header {
+.culture .culture-header {
     text-align: center;
 }
 
-.culture .culture_header .culture-heading {
+.culture .culture-header .culture-heading {
     font-size: 40px;
     font-weight: 700;
     color: #222;
     margin-bottom: 20px;
 }
 
-.culture .culture_header .culture-paragraph {
+.culture .culture-header .culture-paragraph {
     font-family: "Roboto Slab";
     font-size: 20px;
     color: #777;
     margin-bottom: 86px;
 }
 
-.culture .culture_items {
+.culture .culture-items {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -519,7 +519,7 @@ header nav a:last-child {
     align-content: center;
 }
 
-.culture .culture_one_item {
+.culture .culture-items .culture-one-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -527,7 +527,7 @@ header nav a:last-child {
     width: 31%;
 }
 
-.culture .culture_items .culture_one_item .culture-circle {
+.culture .culture-items .culture-one-item .culture-circle {
 
     display: flex;
     height: 84px;
@@ -542,14 +542,14 @@ header nav a:last-child {
 
 }
 
-.culture .culture_one_item .list-heading {
+.culture .culture-items .culture-one-item .list-heading {
     font-size: 18px;
     font-weight: 700;
     color: #222;
     margin-bottom: 16px;
 }
 
-.culture .culture_one_item .list-paragraph {
+.culture .culture-items .culture-one-item .list-paragraph {
     font-family: "Roboto Slab";
     font-size: 14px;
     color: #777;
@@ -557,7 +557,7 @@ header nav a:last-child {
 }
 
 
-.culture_one_item:after {
+.culture .culture-items .culture-one-item:after {
     content: "";
     height: 1px;
     width: calc(100% - 100px);
@@ -567,15 +567,15 @@ header nav a:last-child {
     right: -115px;
 }
 
-.culture_one_item:last-of-type:after {
+.culture .culture-items .culture-one-item:last-of-type:after {
     display: none;
 }
 
-.our_clients {
+.our-clients {
     margin: 100px 0;
 }
 
-.our_clients .our_clients_header .clients-heading {
+.our-clients .our-clients-header .clients-heading {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
@@ -583,7 +583,7 @@ header nav a:last-child {
     margin-bottom: 20px;
 }
 
-.our_clients .our_clients_header .clients-paragraph {
+.our-clients .our-clients-header .clients-paragraph {
     font-family: "Roboto Slab";
     text-align: center;
     font-size: 20px;
@@ -591,20 +591,20 @@ header nav a:last-child {
     margin-bottom: 90px;
 }
 
-.our_clients .our_clients_items .box {
+.our-clients .our-clients-items .box {
     height: 173px;
     width: 640px;
     background: #f9f9f9;
 }
 
-.our_clients .our_clients_items .circle {
+.our-clients .our-clients-items .circle {
     width: 208px;
     height: 208px;
     border-radius: 50%;
     background: #f9f9f9;
 }
 
-.our_clients .our_clients_one_item {
+.our-clients .our-clients-items .our-clients-one-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -618,22 +618,22 @@ header nav a:last-child {
     line-height: 1.273;
 }
 
-.our_clients .our_clients_one_item .figcaption {
+.our-clients .our-clients-items .our-clients-one-item .figcaption {
     font-family: "Roboto Slab";
     color: #7cc576;
     font-size: 18px;
     margin-top: 19px;
 }
 
-.our_clients_one_item.reverse .circle {
+.our-clients .our-clients-items .our-clients-one-item .reverse .circle {
     order: 2;
 }
 
-.our_clients_one_item.reverse .box {
+.our-clients .our-clients-items .our-clients-one-item .reverse .box {
     order: 1;
 }
 
-.our_clients .our_clients_one_item .box {
+.our-clients .our-clients-items .our-clients-one-item .box {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -641,7 +641,7 @@ header nav a:last-child {
     position: relative;
 }
 
-.our_clients .our_clients_one_item .box.no-reverse:before {
+.our-clients .our-clients-items .our-clients-one-item .box .no-reverse:before {
     content: "";
     border-width: 17.5px 35px 17.5px 0;
     border-color: transparent #f9f9f9 transparent transparent;
@@ -653,7 +653,7 @@ header nav a:last-child {
     transform: translateY(-50%);
 }
 
-.our_clients .our_clients_one_item .box.box-reverse:before {
+.our-clients .our-clients-items .our-clients-one-item .box .box-reverse:before {
     content: "";
     border-width: 17.5px 0 17.5px 35px;
     border-color: transparent transparent transparent #f9f9f9;
@@ -756,7 +756,7 @@ header nav a:last-child {
     width: 25px;
 }
 
-.subfooter .subfooter-inner .subfooter-item .footer-text span.envelope-icon {
+.subfooter .subfooter-inner .subfooter-item .footer-text span .envelope-icon {
     font-size: 20px;
 }
 
@@ -869,19 +869,19 @@ header nav a:last-child {
         background-position-y: 15px;
     }
 
-    .culture_one_item::after {
+    .culture .culture-items .culture-one-item::after {
         right: -70px;
     }
 
-    .our_clients .our_clients_items .circle {
+    .our-clients .our-clients-items .circle {
         display: none;
     }
 
-    .our_clients .our_clients_items .box {
+    .our-clients .our-clients-items .box {
         width: 100%;
     }
 
-    .our_clients .our_clients_items .box:after {
+    .our-clients .our-clients-items .box:after {
         border-width: 0;
         display: none;
     }
@@ -898,35 +898,35 @@ header nav a:last-child {
         margin-bottom: 20px;
     }
 
-    .services_items_inner {
+    .services .services-items .services-items-inner {
         width: 100%;
         margin: 0;
     }
 
-    .services .services_items {
+    .services .services-items {
         width: 100%;
         margin: 0;
     }
 
-    .our_clients .our_clients_items .circle {
+    .our-clients .our-clients-items .circle {
         display: none;
     }
 
-    .our_clients .our_clients_one_item .box.no-reverse::before {
+    .our-clients .our-clients-items .our-clients-one-item .box .no-reverse::before {
         display: none;
     }
 
-    .our_clients .our_clients_one_item .box.box-reverse::before {
+    .our-clients .our-clients-items .our-clients-one-item .box .box-reverse::before {
         display: none;
     }
 
-    .culture_one_item::after {
+    .culture .culture-items .culture-one-item::after {
         height: 0;
     }
 }
 
 @media(min-width: 641px) and (max-width: 768px) {
-    .project .tablet_holder .project-tablet{
+    .project .tablet-holder .project-tablet{
         width: 285px;
     }
 
@@ -943,20 +943,20 @@ header nav a:last-child {
 
     }
 
-    .relax .relax_jpg {
+    .relax .relax-jpg {
         width: 100%;
     }
 
-    .project img {
+    .project .tablet-holder .project-container .project-list .project-li img {
         width: 250px;
     }
 
-    .culture .culture_one_item {
+    .culture .culture-items .culture-one-item {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .our_clients .our_clients_one_item {
+    .our-clients .our-clients-items .our-clients-one-item {
         font-size: 18px;
     }
 
@@ -972,7 +972,7 @@ header nav a:last-child {
 
     }
 
-    .relax .relax_jpg {
+    .relax .relax-jpg {
         width: 100%;
 
     }
@@ -985,11 +985,11 @@ header nav a:last-child {
         display: none;
     }
 
-    .project .project_container {
+    .project .project-container {
         width: 100%;
     }
 
-    .culture .culture_one_item {
+    .culture .culture-items .culture-one-item {
         width: 100%;
         margin-bottom: 20px;
     }
