@@ -485,7 +485,7 @@ table {
 
 .project .tablet-holder .project-container .project-bottom-link span {
     margin-left: 7px;
-    
+
 }
 
 
@@ -769,7 +769,7 @@ table {
     text-decoration: none;
 }
 
-.subfooter .subfooter-inner .subfooter-item .footer-text .footer-text-quotes{
+.subfooter .subfooter-inner .subfooter-item .footer-text .footer-text-quotes {
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 16px;
@@ -779,7 +779,7 @@ table {
     text-decoration: none;
 }
 
-.subfooter .subfooter-inner .subfooter-item .footer-text .subfooter-item-qoutes-time{
+.subfooter .subfooter-inner .subfooter-item .footer-text .subfooter-item-qoutes-time {
     font-family: 'Roboto Slab';
     font-size: 12px;
     color: #ececec;
@@ -800,16 +800,16 @@ table {
 
 }
 
-.subfooter .subfooter-inner .subfooter-item .footer-text .png-holder{
+.subfooter .subfooter-inner .subfooter-item .footer-text .png-holder {
     width: 23px;
     margin-right: 15px;
 }
 
-.subfooter .subfooter-inner .subfooter-item .footer-text .center{
+.subfooter .subfooter-inner .subfooter-item .footer-text .center {
     width: 25px;
 }
 
-.subfooter .subfooter-inner .subfooter-item .up .footer-text-p{
+.subfooter .subfooter-inner .subfooter-item .up .footer-text-p {
     position: relative;
     top: -4px;
 }
@@ -850,7 +850,8 @@ table {
 .copyright .copyright-boxes .center {
     justify-content: center;
 }
-.copyright .copyright-boxes .center a{
+
+.copyright .copyright-boxes .center a {
     color: #222;
 }
 
@@ -867,7 +868,7 @@ table {
 
     .relax .gear {
         background-position-x: -231px;
-        
+
     }
 
     .culture .culture-items .culture-one-item::after {
@@ -927,7 +928,7 @@ table {
 }
 
 @media(min-width: 641px) and (max-width: 768px) {
-    .project .tablet-holder .project-tablet{
+    .project .tablet-holder .project-tablet {
         width: 220px;
     }
 
@@ -968,17 +969,18 @@ table {
 }
 
 @media(max-width: 480px) {
-    .main-header{
+    .main-header {
         padding: 70px 0;
     }
 
-    .photo-background .photo-shadow .title{
+    .photo-background .photo-shadow .title {
         font-size: 30px;
     }
 
-    .services .title{
+    .services .title {
         font-size: 30px;
     }
+
     .relax .gear {
         display: none;
 
@@ -992,7 +994,8 @@ table {
     .relax {
         height: auto;
     }
-    .relax .relax-jpg .overlay{
+
+    .relax .relax-jpg .overlay {
         padding-left: 20px;
     }
 
@@ -1003,7 +1006,8 @@ table {
     .project .tablet-holder .project-container {
         width: 100%;
     }
-    .project .tablet-holder .project-container .project-list .project-li{
+
+    .project .tablet-holder .project-container .project-list .project-li {
         flex-direction: column;
     }
 
