@@ -592,7 +592,7 @@ table {
 }
 
 .our-clients .our-clients-items .box {
-    height: 173px;
+    padding: 45px 0;
     width: 640px;
     background: #f9f9f9;
 }
@@ -927,7 +927,7 @@ table {
 
 @media(min-width: 641px) and (max-width: 768px) {
     .project .tablet-holder .project-tablet{
-        width: 285px;
+        width: 220px;
     }
 
     .logos div {
@@ -948,7 +948,7 @@ table {
     }
 
     .project .tablet-holder .project-tablet {
-        width: 250px;
+        width: 120px;
     }
 
     .culture .culture-items .culture-one-item {
