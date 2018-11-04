@@ -947,7 +947,7 @@ table {
         width: 100%;
     }
 
-    .project .tablet-holder .project-container .project-list .project-li img {
+    .project .tablet-holder .project-tablet {
         width: 250px;
     }
 
@@ -981,7 +981,7 @@ table {
         height: auto;
     }
 
-    .project img {
+    .project .tablet-holder .project-tablet {
         display: none;
     }
 
