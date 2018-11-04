@@ -855,9 +855,14 @@ table {
     color: #222;
 }
 
-.copyright .copyright-boxes .copyright-inner span {
-    margin: 0 10px;
-    font-size: 24px;
+.copyright .copyright-boxes .copyright-inner .circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #222;
 
 }
 
