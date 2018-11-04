@@ -561,7 +561,7 @@ table {
     content: "";
     height: 1px;
     width: calc(100% - 100px);
-    background: #000;
+    background: #777;
     position: absolute;
     top: 43px;
     right: -115px;
