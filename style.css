@@ -967,6 +967,17 @@ table {
 }
 
 @media(max-width: 480px) {
+    .main-header{
+        padding: 70px 0;
+    }
+
+    .photo-background .photo-shadow .title{
+        font-size: 30px;
+    }
+
+    .services .title{
+        font-size: 30px;
+    }
     .relax .gear {
         display: none;
 
@@ -980,13 +991,19 @@ table {
     .relax {
         height: auto;
     }
+    .relax .relax-jpg .overlay{
+        padding-left: 20px;
+    }
 
     .project .tablet-holder .project-tablet {
         display: none;
     }
 
-    .project .project-container {
+    .project .tablet-holder .project-container {
         width: 100%;
+    }
+    .project .tablet-holder .project-container .project-list .project-li{
+        flex-direction: column;
     }
 
     .culture .culture-items .culture-one-item {
