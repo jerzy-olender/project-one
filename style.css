@@ -156,7 +156,6 @@ table {
 
 .main-header .header-img {
     width: 144px;
-    height: 29px;
 }
 
 .main-header .main-nav {
@@ -927,7 +926,8 @@ table {
     }
 
     .main-header .main-nav .hamburger {
-        display: block;
+        display: flex;
+        align-items: center;
     }
 
     .list {
