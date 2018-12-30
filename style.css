@@ -938,6 +938,13 @@ table {
         display: block;
     }
 
+    .change .list .ul-mobile .li-mobile{
+        padding: 4px 0;
+    }
+    .change .list .ul-mobile .li-mobile :hover{
+        background-color: #ccc;
+    } 
+
 
     .main-header .main-nav .nav-ul {
         display: none;
