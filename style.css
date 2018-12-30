@@ -142,6 +142,10 @@ table {
     clear: both;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 940px;
     margin: 0 auto;

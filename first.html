@@ -11,23 +11,23 @@
 <body>
     <div class="container">
         <header class="main-header">
-            <img class="header-img" src="logo.png" />
-            <nav class="main-nav">
+            <a href="#home"><img class="header-img" src="logo.png" /></a>
+            <nav class="main-nav" id="home">
                 <ul class="nav-ul">
-                    <li class="nav-li"><a href="#">Home</a></li>
-                    <li class="nav-li"><a href="#">About</a></li>
-                    <li class="nav-li"><a href="#">Blog</a></li>
-                    <li class="nav-li"><a href="#">Portfolio</a></li>
-                    <li class="nav-li"><a href="#">Contact</a></li>
+                    <li class="nav-li"><a href="#home">Home</a></li>
+                    <li class="nav-li"><a href="#about">About</a></li>
+                    <li class="nav-li"><a href="#blog">Blog</a></li>
+                    <li class="nav-li"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-li"><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="hamburger" onclick="myFunction(this)">
                     <div class="list">
                         <ul class="ul-mobile">
-                            <li class="li-mobile"><a href="#">Home</a></li>
-                            <li class="li-mobile"><a href="#">About</a></li>
-                            <li class="li-mobile"><a href="#">Blog</a></li>
-                            <li class="li-mobile"><a href="#">Portfolio</a></li>
-                            <li class="li-mobile"><a href="#">Contact</a></li>
+                            <li class="li-mobile"><a href="#home">Home</a></li>
+                            <li class="li-mobile"><a href="#about">About</a></li>
+                            <li class="li-mobile"><a href="#blog">Blog</a></li>
+                            <li class="li-mobile"><a href="#portfolio">Portfolio</a></li>
+                            <li class="li-mobile"><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="bars">
@@ -48,7 +48,7 @@
         </div>
     </section>
     <div class="container">
-        <section class="services">
+        <section class="services" id="about">
             <h3 class="title">professional services</h3>
             <p class="subtitle">Proin iaculis purus consequat sem cure </p>
             <div class="services-items">
@@ -74,7 +74,7 @@
             </div>
         </section>
     </div>
-    <section class="relax">
+    <section class="relax" id="blog">
         <div class="gear">
         </div>
         <div class="relax-jpg">
@@ -93,7 +93,7 @@
             </div>
         </div>
     </section>
-    <section class="project">
+    <section class="project" id="portfolio">
         <div class="project-head">
             <h5 class="project-heading">LATEST PROJECT</h5>
             <p class="project-subhead">Proin iaculis purus consequat sem cure digni ssim.</p>
@@ -200,7 +200,7 @@
         </section>
     </div>
     </div>
-    <section class="contact-wrapper">
+    <section class="contact-wrapper" id="contact">
         <div class="container">
             <div class="contact-inner">
                 <h5 class="contact-head">
